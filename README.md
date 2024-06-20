@@ -18,3 +18,5 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 - this and Super keyword
 
 - Copy Constructor 
+
+- local, instance and static variables
