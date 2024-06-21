@@ -20,3 +20,5 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 - Copy Constructor 
 
 - local, instance and static variables
+
+- static method, static variable and static class 
