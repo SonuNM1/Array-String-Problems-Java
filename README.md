@@ -24,3 +24,7 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 - static method, static variable and static class 
 
 - Why is the character array preferred over string for storing confidential information?
+
+- HashSet and TreeSet
+
+- JDK, JRE, JVM 
