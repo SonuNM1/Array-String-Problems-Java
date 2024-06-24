@@ -28,3 +28,11 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 - HashSet and TreeSet
 
 - JDK, JRE, JVM 
+
+- throw throws
+
+- Thread
+
+- Constructor Vs. Method , why constructor can't be marked final 
+
+- pass by value Vs. pass by reference
