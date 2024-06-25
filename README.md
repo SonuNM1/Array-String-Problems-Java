@@ -36,3 +36,12 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 - Constructor Vs. Method , why constructor can't be marked final 
 
 - pass by value Vs. pass by reference
+
+
+#### Collections 
+
+- Array Vs. Collections 
+
+- ArrayList, HashMap, HashSet
+
+- Collection Vs Collections
