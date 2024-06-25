@@ -46,4 +46,4 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 
 - Collection Vs Collections
 
-- Iterator Vs. ListIterator (traverse collections)
+- Cursors (Iterator, ListIterator, Enumeration)
