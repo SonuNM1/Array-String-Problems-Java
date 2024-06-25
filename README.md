@@ -45,3 +45,5 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 - ArrayList, HashMap, HashSet
 
 - Collection Vs Collections
+
+- Iterator Vs. ListIterator (traverse collections)
