@@ -1,7 +1,18 @@
 
-- Difference between == and equals()
-- StringBuilder vs String
+#### String Concepts 
+
+- StringBuilder vs String vs StringBuffer
+
 - toString()
+
+- compareTo()
+
+- Why is the character array preferred over string for storing confidential information?
+
+#### Miscellaneous
+
+- Difference between == and equals()
+
 - why can't we use length() property with primitive data types like int
 
     For eg: int num = 123 ; 
@@ -23,10 +34,6 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 
 - static method, static variable and static class 
 
-- Why is the character array preferred over string for storing confidential information?
-
-- HashSet and TreeSet
-
 - JDK, JRE, JVM 
 
 - throw throws
@@ -46,4 +53,7 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 
 - Collection Vs Collections
 
+- HashSet and TreeSet
+
 - Cursors (Iterator, ListIterator, Enumeration)
+
