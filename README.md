@@ -1,6 +1,15 @@
 
 ### String Concepts 
 
+- Why are String immutable ?
+
+Strings are often used to hold sensitive data such as database URLs, usernames, passwords, and file paths. If strings were mutable, an attacker could change the content of these strings and potentially compromise the application.
+
+Prevents unauthorized modifications to strings holding sensitive data.
+
+Immutable objects are automatically thread-safe (synchronized)
+
+- == Vs. equals()
 
 - StringBuilder vs String vs StringBuffer
 
@@ -39,6 +48,11 @@ Performance Improvement: In many applications, string manipulation is done in a 
 
 ### Miscellaneous
 
+- pass by value Vs. pass by reference
+
+- Compile-time and Run-time Error
+
+- protected access modifier
 
 - Difference between == and equals()
 
@@ -112,5 +126,8 @@ The primitive data types are not objects; they are simple values stored directly
 
 
  - Synchronized keyword: used to control access to a block of code by multiple threads. It ensures only one thread can execute a synchronized block/method at a time, thus preventing data inconsistency and race conditions. This is crucial in multi-threaded environment where multiple threads might access shared resources concurrently. 
+
+
+ - Thread.currentThread() : returns a reference to the currently executing thread object. used to get information about the thread that is currently executing, such as its name, priority
 
  
