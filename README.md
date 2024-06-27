@@ -1,5 +1,5 @@
 
-#### String Concepts 
+### String Concepts 
 
 
 - StringBuilder vs String vs StringBuffer
@@ -37,7 +37,7 @@ Performance Improvement: In many applications, string manipulation is done in a 
 - String < StringBuffer < StringBuilder (Performance)
 
 
-#### Miscellaneous
+### Miscellaneous
 
 
 - Difference between == and equals()
@@ -52,6 +52,8 @@ We can convert the integer to a 'String' and then use the 'length()' method.
     int num = 123;
     String numStr = Integer.toString(num) ; 
     int length = numStr.length() ; 
+
+The primitive data types are not objects; they are simple values stored directly in memory. 
 
 - Constructor Overloading
 
@@ -74,7 +76,7 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 - pass by value Vs. pass by reference
 
 
-#### Collections 
+### Collections 
 
 
 - Array Vs. Collections 
@@ -87,3 +89,28 @@ We can convert the integer to a 'String' and then use the 'length()' method.
 
 - Cursors (Iterator, ListIterator, Enumeration)
 
+
+### Threads & Synchronization
+
+
+ - A thread in Java is a lightweight process that allows concurrent execution of tasks. Java provides built-in support for multithreading, enabling programs to perform multiple operations simultaneously. Each thread runs independently and can perform different tasks concurrently within the same program. 
+
+ - Creating Threads: Threads can be created in Java by extending the 'Thread' class or implementing the 'Runnable' interface. 
+
+
+ - Synchronization : is a mechanism that ensures that two or more concurrent threads do not simultaneously execute some particular code segment known as critical section. It is used to control the access of multiple threads to shared resources to prevent data inconsistency and ensure thread safety. 
+
+ - Why Synchronization needed? 
+
+ In a multi-threaded environment, multiple threads may attempt to modify the same shared resource concurrently, leading to data corruption and unpredictable results. Synchronization helps to avoid such problems by ensuring that only one thread can access the critical section at a time. 
+
+ - Relationship between threads and Synchronization 
+
+ 1. Concurrency: Threads enable concurrent execution, allowing multiple tasks to run simultaneously. However, concurrency introduces the risk of data inconsistency when multiple threads access shared resources simultaneously. 
+
+ 2. Mutual Exclusion: Synchronization provides mutual exclusion, ensuring that only one thread can access the critical section at a time. This prevents data corruption and ensures thread-safety. 
+
+
+ - Synchronized keyword: used to control access to a block of code by multiple threads. It ensures only one thread can execute a synchronized block/method at a time, thus preventing data inconsistency and race conditions. This is crucial in multi-threaded environment where multiple threads might access shared resources concurrently. 
+
+ 
