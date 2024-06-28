@@ -46,6 +46,12 @@ Performance Improvement: In many applications, string manipulation is done in a 
 - String < StringBuffer < StringBuilder (Performance)
 
 
+### OOP (Object Oriented Programming)
+
+ - Why abstract class cannot be instantiated ? 
+
+- abstract Vs. implements keyword
+
 ### Miscellaneous
 
 - pass by value Vs. pass by reference
