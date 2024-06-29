@@ -1,5 +1,4 @@
-
-### String Concepts 
+### String Concepts
 
 - Why are String immutable ?
 
@@ -19,7 +18,7 @@ Immutable objects are automatically thread-safe (synchronized)
 
 - Why is the character array preferred over string for storing confidential information?
 
-- Why String and StringBuffer are said to be thread-safe (synchronized), while StringBuilder are not thread-safe (not synchronized)? 
+- Why String and StringBuffer are said to be thread-safe (synchronized), while StringBuilder are not thread-safe (not synchronized)?
 
 StringBuffer
 
@@ -45,12 +44,29 @@ Performance Improvement: In many applications, string manipulation is done in a 
 
 - String < StringBuffer < StringBuilder (Performance)
 
-
 ### OOP (Object Oriented Programming)
 
- - Why abstract class cannot be instantiated ? 
+- Polymorphism Example: Think of a remote control that can work with different devices like a TV, a DVD player, and a music system. Even though the remote control looks the same and you press the same buttons, it does different things depending on what device it's controlling.
 
-- abstract Vs. implements keyword
+- Can we overload Constructors ?
+
+- Composition (has-a) Vs. Inheritance (is-a)
+
+- Types of inheritance (Single, Multilevel, Hierarchical, Multiple inheritance through interface)
+
+- Why abstract class cannot be instantiated ?
+
+- extend Vs. implements keyword
+
+- abstract class Vs. interfaces: Since, Java 8, interfaces can have default methods with a body.
+
+- super keyword
+
+- Can you prevent a class from being inherited? How?
+
+- Inheritance (is-a) Vs. Composition (has-a)
+
+- Dynamic method dispatch
 
 ### Miscellaneous
 
@@ -64,42 +80,40 @@ Performance Improvement: In many applications, string manipulation is done in a 
 
 - why can't we use length() property with primitive data types like int
 
-    For eg: int num = 123 ; 
-            int length = num.length() ; 
+  For eg: int num = 123 ;
+  int length = num.length() ;
 
-We can convert the integer to a 'String' and then use the 'length()' method. 
+We can convert the integer to a 'String' and then use the 'length()' method.
 
     int num = 123;
-    String numStr = Integer.toString(num) ; 
-    int length = numStr.length() ; 
+    String numStr = Integer.toString(num) ;
+    int length = numStr.length() ;
 
-The primitive data types are not objects; they are simple values stored directly in memory. 
+The primitive data types are not objects; they are simple values stored directly in memory.
 
 - Constructor Overloading
 
 - this and Super keyword
 
-- Copy Constructor 
+- Copy Constructor
 
 - local, instance and static variables
 
-- static method, static variable and static class 
+- static method, static variable and static class
 
-- JDK, JRE, JVM 
+- JDK, JRE, JVM
 
 - throw throws
 
 - Thread
 
-- Constructor Vs. Method , why constructor can't be marked final 
+- Constructor Vs. Method , why constructor can't be marked final
 
 - pass by value Vs. pass by reference
 
+### Collections
 
-### Collections 
-
-
-- Array Vs. Collections 
+- Array Vs. Collections
 
 - ArrayList, HashMap, HashSet
 
@@ -109,31 +123,24 @@ The primitive data types are not objects; they are simple values stored directly
 
 - Cursors (Iterator, ListIterator, Enumeration)
 
-
 ### Threads & Synchronization
 
+- A thread in Java is a lightweight process that allows concurrent execution of tasks. Java provides built-in support for multithreading, enabling programs to perform multiple operations simultaneously. Each thread runs independently and can perform different tasks concurrently within the same program.
 
- - A thread in Java is a lightweight process that allows concurrent execution of tasks. Java provides built-in support for multithreading, enabling programs to perform multiple operations simultaneously. Each thread runs independently and can perform different tasks concurrently within the same program. 
+- Creating Threads: Threads can be created in Java by extending the 'Thread' class or implementing the 'Runnable' interface.
 
- - Creating Threads: Threads can be created in Java by extending the 'Thread' class or implementing the 'Runnable' interface. 
+- Synchronization : is a mechanism that ensures that two or more concurrent threads do not simultaneously execute some particular code segment known as critical section. It is used to control the access of multiple threads to shared resources to prevent data inconsistency and ensure thread safety.
 
+- Why Synchronization needed?
 
- - Synchronization : is a mechanism that ensures that two or more concurrent threads do not simultaneously execute some particular code segment known as critical section. It is used to control the access of multiple threads to shared resources to prevent data inconsistency and ensure thread safety. 
+In a multi-threaded environment, multiple threads may attempt to modify the same shared resource concurrently, leading to data corruption and unpredictable results. Synchronization helps to avoid such problems by ensuring that only one thread can access the critical section at a time.
 
- - Why Synchronization needed? 
+- Relationship between threads and Synchronization
 
- In a multi-threaded environment, multiple threads may attempt to modify the same shared resource concurrently, leading to data corruption and unpredictable results. Synchronization helps to avoid such problems by ensuring that only one thread can access the critical section at a time. 
+1.  Concurrency: Threads enable concurrent execution, allowing multiple tasks to run simultaneously. However, concurrency introduces the risk of data inconsistency when multiple threads access shared resources simultaneously.
 
- - Relationship between threads and Synchronization 
+2.  Mutual Exclusion: Synchronization provides mutual exclusion, ensuring that only one thread can access the critical section at a time. This prevents data corruption and ensures thread-safety.
 
- 1. Concurrency: Threads enable concurrent execution, allowing multiple tasks to run simultaneously. However, concurrency introduces the risk of data inconsistency when multiple threads access shared resources simultaneously. 
+- Synchronized keyword: used to control access to a block of code by multiple threads. It ensures only one thread can execute a synchronized block/method at a time, thus preventing data inconsistency and race conditions. This is crucial in multi-threaded environment where multiple threads might access shared resources concurrently.
 
- 2. Mutual Exclusion: Synchronization provides mutual exclusion, ensuring that only one thread can access the critical section at a time. This prevents data corruption and ensures thread-safety. 
-
-
- - Synchronized keyword: used to control access to a block of code by multiple threads. It ensures only one thread can execute a synchronized block/method at a time, thus preventing data inconsistency and race conditions. This is crucial in multi-threaded environment where multiple threads might access shared resources concurrently. 
-
-
- - Thread.currentThread() : returns a reference to the currently executing thread object. used to get information about the thread that is currently executing, such as its name, priority
-
- 
+- Thread.currentThread() : returns a reference to the currently executing thread object. used to get information about the thread that is currently executing, such as its name, priority

@@ -1,4 +1,4 @@
-package OOP;
+
 
 public class AbstractExample {
     public static void main(String[] args) {
