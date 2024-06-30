@@ -50,7 +50,15 @@ Performance Improvement: In many applications, string manipulation is done in a 
 
 - Can we overload Constructors ?
 
+- Why we cannot override the static method? 
+
 - Composition (has-a) Vs. Inheritance (is-a)
+
+- calling the parametrized constructor from superclass using the super() keyword
+
+- How do constructors work in Java inheritance, and why is the superclass constructor called before the subclass constructor when creating an object of the subclass? 
+
+- Java does not support multiple inheritance of classes but allows a class to implement multiple interfaces. Why? 
 
 - Types of inheritance (Single, Multilevel, Hierarchical, Multiple inheritance through interface)
 
