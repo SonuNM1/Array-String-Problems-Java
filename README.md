@@ -48,6 +48,8 @@ Performance Improvement: In many applications, string manipulation is done in a 
 
 - Polymorphism Example: Think of a remote control that can work with different devices like a TV, a DVD player, and a music system. Even though the remote control looks the same and you press the same buttons, it does different things depending on what device it's controlling.
 
+- Why is Java called compiled as well as interpreted language? 
+
 - Can we overload Constructors ?
 
 - Why we cannot override the static method? 
@@ -135,9 +137,11 @@ The primitive data types are not objects; they are simple values stored directly
 
 - A thread in Java is a lightweight process that allows concurrent execution of tasks. Java provides built-in support for multithreading, enabling programs to perform multiple operations simultaneously. Each thread runs independently and can perform different tasks concurrently within the same program.
 
-- Creating Threads: Threads can be created in Java by extending the 'Thread' class or implementing the 'Runnable' interface.
+- Multi-threading, Synchronization, Race condition, critical section..how they are related
 
-- Synchronization : is a mechanism that ensures that two or more concurrent threads do not simultaneously execute some particular code segment known as critical section. It is used to control the access of multiple threads to shared resources to prevent data inconsistency and ensure thread safety.
+- Creating Threads
+
+- Synchronization 
 
 - Why Synchronization needed?
 
@@ -152,3 +156,10 @@ In a multi-threaded environment, multiple threads may attempt to modify the same
 - Synchronized keyword: used to control access to a block of code by multiple threads. It ensures only one thread can execute a synchronized block/method at a time, thus preventing data inconsistency and race conditions. This is crucial in multi-threaded environment where multiple threads might access shared resources concurrently.
 
 - Thread.currentThread() : returns a reference to the currently executing thread object. used to get information about the thread that is currently executing, such as its name, priority
+
+
+
+### Error & Exceptions
+
+
+- Checked and Unchecked exceptions
