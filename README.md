@@ -173,3 +173,7 @@ In a multi-threaded environment, multiple threads may attempt to modify the same
 - throw vs throws
 
 - Anonymous class 
+
+- Lambda expression and functional interface 
+
+- member inner class, static nested class, local inner class, anonymous inner class 
