@@ -163,3 +163,13 @@ In a multi-threaded environment, multiple threads may attempt to modify the same
 
 
 - Checked and Unchecked exceptions
+
+- Nested try-catch
+
+- Custom Exception
+
+- finalize
+
+- throw vs throws
+
+- Anonymous class 
