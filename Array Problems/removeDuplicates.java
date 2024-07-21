@@ -1,31 +1,60 @@
 
-import java.util.HashSet; 
-import java.util.Iterator; 
+// remove duplicate elements from Sorted array - by creating a temp array 
 
+/*
 public class removeDuplicates{
     public static void main(String[] args) {
         
-        int num[] = {1, 2, 2, 3, 4, 3} ; 
+        int[] sortedArray = {1,2,2,3,4,5,5} ; 
 
-        HashSet<Integer> uniqueElements = new HashSet<>() ; // to store unique elements 
+        int[] temp = new int[sortedArray.length] ; 
+        int index = 0 ; 
 
-        HashSet<Integer> duplicateElements = new HashSet<>() ; // to store duplicate elements 
+        for(int i=0 ; i < sortedArray.length-1 ; i++){
 
-       for(int n: num){
-            uniqueElements.add(n) ; 
-            if(!uniqueElements.contains(n)){
-                duplicateElements.add(n) ; 
+            if(sortedArray[i] != sortedArray[i+1]){
+
+                temp[index] = sortedArray[i] ; 
+                index++ ; 
+
             }
-       }
+        }
 
-       Iterator<Integer> integer = duplicateElements.iterator() ; 
+        temp[index] = sortedArray[sortedArray.length-1] ; 
 
-       System.out.println("Duplicate elements: ");
+        System.out.println("Array without duplicate elements: ");
 
-       while(integer.hasNext()){
-            int element = integer.next() ; 
-            System.out.print(element + " ");
-       }
+        for(int num: temp){
+            System.out.print(num + " ");
+        }
+    }
+}
+*/
+
+public class removeDuplicates{
+    public static void main(String[] args){
+        
+        int[] sortedArray = {1,2,2,3,4,5,5} ; 
+
+        int[] removeDuplicates = new int[sortedArray.length] ; 
+        int index = 0 ; 
+
+        for(int i=0 ; i < sortedArray.length-1 ; i++){
+            if(sortedArray[i] != sortedArray[i+1]){
+                removeDuplicates[index] = sortedArray[i] ; 
+                index++ ; 
+            }
+        }
+
+        // inserting the last element as it is 
+
+        removeDuplicates[index] = sortedArray[sortedArray.length-1] ; 
+
+        System.out.println("Array without duplicates");
+
+        for(int num: removeDuplicates){
+            System.out.print(num + ", ");
+        }
 
     }
 }
