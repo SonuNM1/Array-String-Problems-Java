@@ -3,7 +3,7 @@
 import java.util.HashMap;
 import java.util.Map; 
 
-public class countEachCharacter{
+public class CountEachCharacter{
 
     public static void getCharCount(String input){
 
