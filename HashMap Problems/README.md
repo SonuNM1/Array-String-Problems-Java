@@ -21,7 +21,7 @@ Write a Java program that checks if two strings are anagrams of each other using
 
 - Most Frequent Element
 
-Given an array of integers, write a program to find the most frequent element using a `HashMap`.
+Given an array of integers, write a program to find the most frequent element using a `HashMap`. Also cover what if two or more elements have the same frequency. 
 
 - Word Lengths in a Sentence
 
