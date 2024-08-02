@@ -1,21 +1,21 @@
 
-- Find a peak element which is not smaller than its neighbours 
+- Find a peak element which is not smaller than its neighbours .
 
-- Find the minimum and maximum element in the array 
+- Find the minimum and maximum element in the array .
 
-- reverse the array 
+- reverse the array .
 
-- Sort the given array 
+- Sort the given array .  
 
 - Find the Kth largest and Kth smallest number in an array 
 
-- Find the occurrence of an integer in the array 
+- Find the occurrence of an integer in the array .
 
 - Sort the array of 0s, 1s and 2s
 
 - Subarray with given sum 
 
-- Move all the negatvie elements to one side of the array 
+- Move all the negatvie elements to one side of the array .
 
 - Find the union and intersection of two sorted arrays 
 
