@@ -53,7 +53,7 @@
 
 - Find minimum in rotated sorted array 
 
-- Two sum
+- Two sum .
 
 - Three sum 
 
