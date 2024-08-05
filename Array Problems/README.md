@@ -7,13 +7,15 @@
 
 - Sort the given array .  
 
-- Find the Kth largest and Kth smallest number in an array 
+- Find the Kth largest and Kth smallest number in an array . (using min-heap as well as max-heap) .
 
 - Find the occurrence of an integer in the array .
 
 - Sort the array of 0s, 1s and 2s
 
 - Subarray with given sum 
+
+- Rotate an array to the left/right by D places
 
 - Move all the negatvie elements to one side of the array .
 
