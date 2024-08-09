@@ -3,13 +3,13 @@
 
  - Check if a String is a Palindrome . 
 
- - Count Vowels and Consonants in a String
+ - Count Vowels and Consonants in a String . 
 
- - Remove Duplicates from a String
+ - Remove Duplicates from a String . 
 
- - Find the First Non-Repeating Character
+ - Find the First Non-Repeating Character .
 
- - Check if Two Strings are Anagrams
+ - Check if Two Strings are Anagrams . 
 
  - Longest Common Prefix 
 
@@ -19,7 +19,9 @@
 
    Problem: Return the index of the first occurrence of a substring in a string, or -1 if the substring is not part of the string.
 
- - Count the Number of Words in a String
+ - Count the Number of Words in a String  .
+
+ - Count the number of characters in the string . 
 
  - Check if a String is a Valid Shuffle of Two Distinct Strings
    
@@ -27,7 +29,7 @@
 
  - Find All Substrings of a String
 
- - Check if a String Contains Only Digits
+ - Check if a String Contains Only Digits .
 
  - Longest Substring Without Repeating Characters
 
