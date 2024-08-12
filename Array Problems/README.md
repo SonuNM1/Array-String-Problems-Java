@@ -1,15 +1,15 @@
 
-- Find a peak element which is not smaller than its neighbours .
+- Find a peak element which is not smaller than its neighbours ✅
 
-- Find the minimum and maximum element in the array .
+- Find the minimum and maximum element in the array ✅
 
-- reverse the array .
+- reverse the array ✅
 
-- Sort the given array .  
+- Sort the given array ✅
 
-- Find the Kth largest and Kth smallest number in an array . (using min-heap as well as max-heap) .
+- Find the Kth largest and Kth smallest number in an array . (using min-heap as well as max-heap) ✅
 
-- Find the occurrence of an integer in the array .
+- Find the occurrence of an integer in the array ✅
 
 - Sort the array of 0s, 1s and 2s
 
@@ -17,7 +17,7 @@
 
 - Rotate an array to the left/right by D places
 
-- Move all the negatvie elements to one side of the array .
+- Move all the negatvie elements to one side of the array ✅
 
 - Find the union and intersection of two sorted arrays 
 
@@ -55,7 +55,7 @@
 
 - Find minimum in rotated sorted array 
 
-- Two sum .
+- Two sum ✅
 
 - Three sum 
 
@@ -63,5 +63,7 @@
 
 - Chocolate Distribution Problem 
 
+- Problem Title: Maximum Triplet Sum in an Array ✅
 
+    Given an array of integers, find the three elements whose sum is the maximum among all possible triplets in the array.
 
