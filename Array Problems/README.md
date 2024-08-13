@@ -67,3 +67,16 @@
 
     Given an array of integers, find the three elements whose sum is the maximum among all possible triplets in the array.
 
+
+- Maximum Subarray (Kadane's Algorithm)     ✅
+
+- Find Lucky Integer in an Array         ✅   
+
+    Lucky integer is an integer that has frequency in the array equal to its value 
+
+    input = [2,2,3,4]
+    output = 2 
+
+    input = [1,2,2,3,3,3] 
+    output = 3
+
