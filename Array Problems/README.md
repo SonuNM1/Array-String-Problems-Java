@@ -11,9 +11,9 @@
 
 - Find the occurrence of an integer in the array ✅
 
-- Sort the array of 0s, 1s and 2s
+- Sort the array of 0s, 1s and 2s / Sort colors     ✅
 
-- Subarray with given sum 
+- Subarray with given sum - Naive and Optimized  ✅
 
 - Rotate an array to the left/right by D places
 
@@ -21,11 +21,11 @@
 
 - Find the union and intersection of two sorted arrays 
 
-- find the missing integer 
+- find the missing integer  ✅
 
 - count pairs with the given sum 
 
-- find duplicates in an array 
+- find duplicates in an array   ✅
 
 - Find common elements in two array (sorted) 
 
